@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: poppins;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("../img/bg-img.jpg");
+  display: grid;
+  place-items: center;
+}
+
+.section {
+  width: min(500px, 100%);
+  min-height: 50px;
+  padding: 20px;
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+          backdrop-filter: blur(13px) saturate(180%);
+  background-color: rgba(0, 7, 54, 0.75);
+  border-radius: 12px;
+  gap: 1em;
+  border: 1px solid rgba(131, 99, 255, 0.5254901961);
+}
+.section #inp {
+  background-color: rgba(131, 99, 255, 0.5254901961);
+  border: none;
+  font-size: 1.2em;
+  padding: 10px;
+  color: #Fff;
+}
+.section #inp::-moz-placeholder {
+  color: #fff;
+}
+.section #inp:-ms-input-placeholder {
+  color: #fff;
+}
+.section #inp::placeholder {
+  color: #fff;
+}
+
+#submit {
+  padding: 10px 30px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-size: 1.5em;
+  transition: 0.2s;
+}
+#submit:hover {
+  background-color: #fff;
+  color: blue;
+}
+
+.form {
+  display: flex;
+  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#result {
+  display: grid;
+  grid-column: 1/3;
+  margin-top: 20px;
+  justify-items: center;
+}
+#result img {
+  width: min(14em, 80%);
+}
+#result h2 {
+  color: #fff;
+}
+#result ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+#result ul li {
+  display: flex;
+  gap: 1em;
+  color: #fff;
+  word-spacing: 5px;
+}/*# sourceMappingURL=style.css.map */
